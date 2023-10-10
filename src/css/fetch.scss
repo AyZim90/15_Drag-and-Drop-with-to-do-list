@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+html {
+    font-family: 'Nunito';
+}
+
+body {
+    background-color: #130F0D;
+    color: white;
+}
+// Fetch style
+.fetch-style {
+    padding: 20px;
+    #fetch {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        background-color: #FD951FCC;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      #output {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+}
+  .card {
+    width: calc(33.33% - 20px); /* 33.33% ширины с учетом отступов */
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin: 5px 0;
+  }

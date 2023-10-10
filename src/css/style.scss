@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: #ccc;
+}
 html {
     font-family: 'Nunito';
 }
@@ -27,37 +31,7 @@ body {
         font-size: 16px;
       }
       
-      #output {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
 }
-  .card {
-    width: calc(33.33% - 20px); /* 33.33% ширины с учетом отступов */
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .card img {
-    max-width: 100%;
-    border-radius: 50%;
-  }
-  
-  .card h3 {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  
-  .card p {
-    font-size: 14px;
-    margin: 5px 0;
-  }
- 
-  
   //Add task style
 .new-task {
     padding: 20px;
