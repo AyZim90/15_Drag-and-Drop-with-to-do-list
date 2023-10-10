@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito";
+}
+
+body {
+  background-color: #130F0D;
+  color: white;
+}
+
+.new-task {
+  padding: 20px;
+}
+.new-task input {
+  background: #141316;
+  border: 1px solid rgba(253, 149, 31, 0.0666666667);
+  border-radius: 4px;
+  color: white;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+}
+.new-task button {
+  background: rgba(253, 149, 31, 0.8);
+  border: 1px solid rgba(253, 149, 31, 0.0666666667);
+  border-radius: 4px;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.boards {
+  display: flex;
+  margin-top: 32px;
+}
+.boards .board {
+  background: #141316;
+  border: 1px solid rgba(253, 149, 31, 0.0666666667);
+  border-radius: 4px;
+  margin: 0 16px;
+}
+.boards .board h3 {
+  padding: 16px;
+  margin: 0;
+  color: rgba(253, 149, 31, 0.8);
+}
+
+.dropzone {
+  padding: 16px;
+  min-width: 282px;
+  min-height: 200px;
+}
+.dropzone .card {
+  background-color: #1A1A1C;
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px rgba(253, 149, 31, 0.8);
+  width: 250px;
+  margin: 25px 0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.dropzone .status {
+  width: 30px;
+  height: 8px;
+  background: gray;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.dropzone .status.green {
+  background: #23D2AC;
+}
+
+.status.blue {
+  background: #33ADFF;
+}
+
+.status.red {
+  background: red;
+}
+
+.highlight {
+  background-color: rgba(253, 149, 31, 0.031372549);
+}
+
+.card, .dropzone {
+  transition: 400ms;
+}
+
+.is-dragging {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.over {
+  background-color: rgba(76, 209, 55, 0.0666666667);
+}/*# sourceMappingURL=style.css.map */
